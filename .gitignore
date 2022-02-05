@@ -1,1 +1,13 @@
 node_modules/
+package-lock.json
+yarn.lock
+node_modules/
+dist
+coverage
+translation
+.vscode
+*.DS_Store
+*.log
+.idea
+.cache
+.eslintcache
