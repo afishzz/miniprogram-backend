@@ -36,8 +36,8 @@ app.use('/note/', note)
 app.use('/notice/', notice)
 app.use('/admin/', admin)
 
-httpServer.listen(PORT, '0.0.0.0', () => {
-  console.log('HTTP SERVER is running on: http://49.234.89.20:%s', PORT);
+httpServer.listen(PORT, '127.0.0.1', () => {
+  console.log('HTTP SERVER is running on: http://127.0.0.1:%s', PORT);
 })
 
 // httpsServer.listen(SSLPORT, '0.0.0.0', () => {
